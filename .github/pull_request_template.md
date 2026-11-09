@@ -8,12 +8,3 @@
 - [ ] Do we need to implement analytics?
 - [ ] Will this be part of a product update? If yes, please write one phrase about this update
 
-5. Create project for this repository.
-
-6. Add deploy key with name `DEPLOY_KEY` to your repository.
-
-7. Create discord server and add notification when PR was created.
-
-8. For github actions: 
-- create PAT (Personal Access Token) with **Full control of private repositories** and **Full control of orgs and teams, read and write org projects**
-- add to repository actions secrets key with the name `PAT` and the value of the created PAT 
